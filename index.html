@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Simple Word Bet Game</title>
+  
+  <!-- HTML -->
+  
+
+  <!-- Custom Styles -->
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body align="center">
+  
+  <!-- Top -->
+  <div class="top-con">
+     <h3>WORDS BET GAME</h3>
+  </div>
+  <!-- Message Info -->
+  <p class="info">Type the given word within <span id="seconds">30</span> seconds</p>
+  <!-- Given Words -->
+  <div class="given-con">
+     <small>Given WORD:</small>
+     <h1 id="given-words">hello</h1>
+     <div id="message"></div>
+  </div>
+  
+  <!-- Input field -->
+  <input type="text" name="wordInput" id="wordInput" placeholder="Start Typing" autofocus/>
+  
+  <!-- Score and Time -->
+  <div class="row">
+     <div class="col-1">
+        TimeLeft: <span id="currentTime">0</span>
+     </div>
+     <div class="col-2">
+        Score: <span id="currentScore">0</span>
+     </div>
+  </div>
+  <button id="start" onclick="startTime()">START</button>
+  <!-- Full Information -->
+  <div class="full-info">
+     <h2>INTRODUCTION</h2>
+     <p>Bet the given word within the given time to gain score. Current words stored in data is <span id="countarray"></span>. Enjoy!</p>
+  </div>
+  
+  <!-- Project -->
+  <script src="main.js"></script>
+</body>
+</html>

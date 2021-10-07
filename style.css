@@ -1,0 +1,110 @@
+*{box-sizing: border-box;}
+
+body {
+    max-width: 100%;
+    background-color: #221A1A;
+    padding: 0;
+    margin: 0;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+/*Top Container*/
+.top-con{
+   max-width: 100%;
+   margin: 0;
+   border-bottom: 1px solid #000;
+   background-color: #38383D;
+}
+.top-con h3{
+   margin: 0;
+   padding: 5px;
+   color: ghostwhite;
+   font-weight: bold;
+   font-family: sans-serif;
+}
+/*levels*/
+#levels{
+   background: none;
+   color: ghostwhite;
+   border: 1px solid grey;
+   outline: none;
+}
+/*Info*/
+.info{
+   color: floralwhite;
+   font-size: 15px;
+   letter-spacing: 2px;
+   font-family: serif;
+}
+.given-con small{
+   color: white;
+   text-transform: uppercase;
+   font-weight: bold;
+}
+.given-con h1{
+   color: white;
+   font-weight: bold;
+   margin: 0;
+   padding: 0;
+}
+.given-con #message{
+   color: #0E5A03;
+   margin: 10px 0 0 0;
+   padding: 0;
+}
+/*Input*/
+input{
+   width: 50%;
+   text-align: center;
+   padding: 10px;
+   outline: none;
+   border: none;
+   border-radius: 15px;
+   margin: 0 20px 20px 20px;
+   box-shadow: inset 1px 0px 20px 1px grey;
+}
+/*Rows*/
+.row{
+   margin: 10px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   color: white;
+   font-size: 20px;
+}
+.row .col-1{
+   margin-right: 10%;
+}
+/*Button*/
+button{
+   color: white;
+   background-color: #198608;
+   border: none;
+   border-radius: 10px;
+   padding: 10px;
+   margin: 10%;
+   outline: none;
+   display: none;
+}
+button:active{
+   box-shadow: 1px 0px 20px 1px white;
+}
+/*Full Info*/
+.full-info{
+   background-color: #3A3D3A;
+   width: 50%;
+   height: auto;
+   margin: 10px 20px 20px 25%;
+   padding: 10px;
+   text-align: center;
+   color: white;
+}
+.full-info h2{
+   margin: 0;
+   padding: 15px;
+}
+.full-info p{
+   margin: 0;
+   padding: 0;
+}
